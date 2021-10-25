@@ -1,0 +1,385 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+ul[class],
+ol[class] {
+  padding: 0;
+}   
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+
+
+
+
+
+.header{
+    display: flex;
+    width: 60%;
+    margin: auto auto;
+    background-color: #364672;
+    height: 200px;
+    border-bottom: 2px solid #346eb6;
+}
+.main_img{
+    width: 25%;
+    overflow: hidden;
+}
+.main_img img{
+    width: 90%;
+}
+.name_age_status{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    width: 25%;
+    color: white;
+    font-weight: bold;
+    font-family: system-ui;
+}
+
+.name{
+    font-size: 1.6rem;
+    opacity: 0.6;
+}
+.surname{
+    font-size: 2rem;
+}
+.word-age{
+    margin-top: 25px;
+}
+.age-status{
+    display: flex;
+    margin-top: -15px;
+    align-items: center;
+}
+.age{
+    font-size: 1.6rem;
+}
+.color-point{
+    margin-left: 10%;
+    margin-right: 5%;
+    background-color: rgb(77, 219, 77);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.status{
+    font-size: 1.6rem;
+}
+.header-right{
+    width: 50%;
+}
+.logo-name{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.flag{
+    margin-left: 10px;
+    width: 40px;
+    display: flex;
+    align-items: flex-end;
+}
+.flag img{
+    width: 100%;
+    margin-bottom: -8px;
+}
+.logo{
+    margin: 7px 7px 0 0;
+    align-items: flex-end;
+}
+.main{
+    width: 60%;
+    
+    margin: auto auto;
+    border: 2px solid #364672;
+}
+.reiting{
+    display: flex;
+    margin: auto auto;
+    width: 40%;
+    align-items: center;
+    justify-content:space-around;
+    height: 120px;
+}
+.ovr-text{
+    color: white;
+    font-size: 1.4rem;
+    font-family: system-ui;
+    opacity: 0.78;
+}
+.ovr-num{
+    color: rgb(204, 72, 55);
+    font-size: 3.5rem;
+    font-family: system-ui;
+    font-weight: bold;
+}
+
+.main{
+    background-color: #364672;
+    display: flex;
+}
+.main-left{
+    width: 50%;
+}
+/*f*/
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+table{
+    margin-left: 2%;
+    width: 88%;
+    color: white;
+    font-family: system-ui;
+    border-collapse: collapse;
+    font-size: 1.2rem;
+}
+table tr{
+    height: 2rem;
+}
+table td:last-child{
+    text-align: right;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #364672;
+}
+  
+tbody tr:nth-child(even) {
+    background-color: #1a4e8d;
+  }
+.main-right{
+      width: 50%;
+  }
+.main-right table{
+      width: 96%;
+  }
+.work-stage{
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
+      margin-left: 2%;
+  }
+.work-stage-img{
+      width: 2rem;
+  }
+.work-stage img{
+      width: 100%;
+  }
+.work-stage-text{
+      color: white;
+      margin-left: 2%;
+      font-weight: bold;
+      font-family: system-ui;
+      font-size: 1.3rem;
+  }
+td span{
+      display: inline-block;
+      text-align: center;
+      width: 2rem;
+  }
+
+.explain{
+    background-color: #364672;
+    display: flex;
+    width: 60%;
+    margin: auto auto;
+}
+.container-explain-text{
+    border-right: 1px solid #ecf4ff;
+    width: 60%;
+    color: white;
+    margin-top: 5%;
+    font-size: 1.4rem;
+    font-family: system-ui;
+}
+.explain-text{
+    width: 95%;
+    margin: 0 auto;
+}
+p{
+    margin-bottom: 1rem;
+}
+.career{
+    display: flex;
+    width: 39%;
+    flex-direction: column;
+    margin-top: 5%;
+    font-family: system-ui;
+    color: white;
+}
+.post-block{
+    margin: 0 auto;
+    width: 90%;
+}
+.company-name-and-icon{
+    display: flex;
+    height: 50px;
+    border: 1px solid red;
+    align-items: center;
+    justify-content: center;
+}
+.company-icon{
+    width: 70px;
+    margin-right: 6%;
+}
+.company-icon img{
+    width: 100%;
+}
+.company-icon2{
+    width: 45px;
+    margin-right: 6%;
+}
+.company-icon2 img{
+    width: 100%;
+}
+.company-name{
+    font-size: 1.4rem;
+}
+.arrow{
+    width: 50px;
+    margin: 0 auto;
+}
+.arrow img{
+    width: 100%;
+}
+.small-age-status{
+    display: none;
+}
+
+@media screen and (max-width: 750px){
+    .header{
+        display: flex;
+        width: 100%;
+        height: 6rem;
+        border-bottom: 2px solid #346eb6;
+    }
+    .main_img{
+        width: 25%;
+    }  
+    .main_img img{
+        width: 100%;
+        max-width: 110px;
+    }
+   .word-age{
+       display: none;
+   }
+   .age-status{
+       display: none;
+   }
+   .logo-name{
+       display: none;
+   }
+   .header-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .reiting{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+   }
+    
+
+   .main{
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+   }
+   table{
+       width: 96%;
+   }
+   .main-left{
+       width: 100%;
+   }
+   .main-right{
+       width: 100%;
+   }
+
+   .explain{
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+   }
+   .container-explain-text{
+       width: 100%;
+       border-right: none;
+   }
+  .career{
+      width: 100%;
+  }
+}
+@media screen and (min-width: 750px) and (max-width:1200px){
+    .header{
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+        height: 6rem;
+        border-bottom: 2px solid #346eb6;
+    }
+    .main_img{
+        width: 15%;
+    }  
+    .main_img img{
+        width: 100%;
+        max-width: 110px;
+    }
+    .name_age_status{
+        width: 20%;
+        margin: 0;
+    }
+    .name-and-surname{
+        margin: 0;
+    }
+   
+   .word-age{
+       display: none;
+   }
+   .age-status{
+    display: none;
+   }
+   .firm-name-flag{
+       display: none;
+   }
+   .header-right{
+       width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   .reiting{
+       width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+   }
+   .main{
+       width: 90%;
+   }
+   .explain{
+       width: 90%;
+   }
+}
